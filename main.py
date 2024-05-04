@@ -13,7 +13,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 HEALTHPOINTFONT = pygame.font.SysFont("couriernew", 13, True)
 SCOREFONT = pygame.font.SysFont("couriernew", 20, True)
-ASSETSPATH = os.path.abspath(os.getcwd()) + "/Assets/" #"B:/HuangJiaQi/Python/Plane Shooter Pygame/Assets/"
+ASSETSPATH = os.path.abspath(os.getcwd()) + "/Assets/"
 
 class Buttons:
   def __init__(self, imagePath, x, y, scale):
